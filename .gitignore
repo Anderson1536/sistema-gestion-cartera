@@ -1,0 +1,51 @@
+
+# =========================
+# Backend - Java y Maven
+# =========================
+**/target/
+*.class
+*.jar
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Frontend - React y Vite
+# =========================
+**/node_modules/
+**/dist/
+**/dist-ssr/
+*.local
+
+# =========================
+# Variables de entorno
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# =========================
+# Entornos de desarrollo
+# =========================
+**/.vscode/
+**/.idea/
+**/.settings/
+*.iml
+.project
+.classpath
+.factorypath
+
+# =========================
+# Archivos temporales
+# =========================
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# =========================
+# Respaldos de bases de datos
+# =========================
+*.dump
+*.backup
+*.bak
